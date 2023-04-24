@@ -1,0 +1,161 @@
+/*****Rogue Pickings*****/
+
+body{
+    color: #000000;
+    font-family: 'montserrat', sans-serif;
+}
+
+/*****Grid*****/
+
+.container {
+    margin: 0 auto; 
+    width: 1200px
+}
+
+/*****Header*****/
+
+h1{
+    font-size:30px;
+    font-weight: bold;
+    height:23px;
+    text-transform: uppercase;
+}
+
+header h1{
+    clear: both;
+    color:#000000;  
+    float: left;
+    width: 300px;/*****/
+}
+
+header h1 span {
+    color:#77a466;
+}
+
+nav{
+    float: right;
+    padding: 15px 0px;
+  
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a {
+    color:#77a466;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 0 12.5px; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+    /*****Top Section*****/
+
+.main-image{
+    border-top: 5px solid #77a466; 
+    height: auto;
+    float: left;
+}
+
+.main-image img {
+    border-bottom: 5px solid #77a466;    
+}
+
+.main-title{
+    clear:both;
+    float: left;
+    height: auto;
+}
+
+.main-title h2{
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-title p{
+    color: #000000;
+    font-size: 16px;
+    line-height: 25px;   
+}
+
+    /*****Bottom Section*****/
+
+.section-one,
+.section-two,
+.section-three {
+    border-top: 1px solid #dedbdc;
+    height: auto;
+    float: left;
+    width: 359px;
+}
+
+.section-one h3,
+.section-two h3,
+.section-three h3 {
+    font-size: 12px;
+    font-weight:bold;
+    line-height: 25px;
+}
+
+.section-two {
+    border-right: 1px solid #dedbdc;
+    border-left: 1px solid #dedbdc;
+}
+.section-one,
+.section-two,
+.section-three {
+	padding: 10px 20px;
+}
+.menu {
+    font-size: 16px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    color: #77a466;
+    padding: 5px 0;
+}
+
+.reviews {
+    color: black;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.address {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*****Footer*****/
+footer {
+    border-top: 1px solid #dedbdc;
+    clear:both;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer h2 {
+    clear: both; 
+    float: center;
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+footer h2 span {
+    color: #c0d5b8;
+    font-family: 'galada', cursive;
+    font-size: 12px;
+    text-transform: lowercase;
+}
+
